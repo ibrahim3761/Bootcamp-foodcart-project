@@ -1,0 +1,210 @@
+body{
+    background-color: white;
+    margin: auto;
+    font-family: "Montserrat";
+}
+header{
+    margin: 20px 100px ;
+}
+/* nav css start */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button{
+    height: 22px;
+    padding-left: 0px;
+
+}
+.nav-button ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-left: 100px;
+    
+}
+
+.nav-button ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-button ul li a:hover{
+    color: #f48e28;
+}
+
+.nav-search-cart{
+    display: flex;
+    align-items: center;
+    border: 1px #ADADAD;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-search svg{
+    height: 26px;
+    width: 25px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.nav-search input{
+    height: 20px;
+    width: 160px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    border-right: 1px solid black;
+    margin-right: 20px;
+}
+
+.nav-search input::placeholder {
+    color: black;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.nav-cart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-cart svg{
+    height: 26px;
+    width: 25px;
+}
+
+.banner{
+    margin-top: 50px;
+    display: flex;
+}
+
+.bike-delivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5DDC4;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 5px 0px;
+}
+
+.bd-text{
+    color: #f38122;
+    font-size: 18px;
+    margin-right: 30px;
+    padding-left: 20px; 
+}
+
+.bd-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #f9f2eb; 
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 5px;
+}
+
+.bd-icon img{
+    width: 40px; /* Adjust the icon size */
+    height: auto;
+}
+
+.banner-heading h1{
+    font-size: 80px;
+    width: 600px;
+    height: 300px;
+    text-transform: uppercase;
+}
+
+.banner-heading h1 span{
+    color: #f38122;
+}
+
+.banner-desc{
+    font-weight:600;
+    font-size: 14.5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 50px; 
+    margin-top: 80px;
+}
+
+.order-now-button {
+    background: linear-gradient(45deg, #f99f3c, #f37022); 
+    color: white;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.order-now-button:hover {
+    background: linear-gradient(45deg, #f37022, #f99f3c); 
+}
+
+/* Order Process Button */
+.order-process {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.play-icon {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.play-icon img {
+    width: 100px; /
+    height: auto;
+}
+
+.order-process-text {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px; /* Space between the icon and text */
+}
+@media only screen and (min-width:200px) and (max-width: 576px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-logo{
+
+    }
+}
