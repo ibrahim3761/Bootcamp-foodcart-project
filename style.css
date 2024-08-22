@@ -88,12 +88,20 @@ header{
     height: 26px;
     width: 25px;
 }
+/* nav end */
+
+/* banner start */
 
 .banner{
     margin-top: 50px;
     display: flex;
 }
+/* banner left start */
 
+.banner-left{
+    padding-right: 0px;
+    margin-right: 0px;
+}
 .bike-delivery{
     display: flex;
     justify-content: space-between;
@@ -101,20 +109,20 @@ header{
     background-color: #F5DDC4;
     border-radius: 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    width: 200px;
     padding: 5px 0px;
 }
 
 .bd-text{
     color: #f38122;
-    font-size: 18px;
+    font-size: 13.7px;
     margin-right: 30px;
     padding-left: 20px; 
 }
 
 .bd-icon{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     background-color: #f9f2eb; 
     border-radius: 100%; 
     display: flex;
@@ -125,12 +133,12 @@ header{
 }
 
 .bd-icon img{
-    width: 40px; /* Adjust the icon size */
+    width: 40px; 
     height: auto;
 }
 
 .banner-heading h1{
-    font-size: 80px;
+    font-size: 70px;
     width: 600px;
     height: 300px;
     text-transform: uppercase;
@@ -142,13 +150,14 @@ header{
 
 .banner-desc{
     font-weight:600;
-    font-size: 14.5px;
+    font-size: 13.5px;
+    margin-top: -20px;
 }
 
 .button-container {
     display: flex;
     gap: 50px; 
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .order-now-button {
@@ -170,7 +179,7 @@ header{
     background: linear-gradient(45deg, #f37022, #f99f3c); 
 }
 
-/* Order Process Button */
+
 .order-process {
     display: flex;
     align-items: center;
@@ -197,7 +206,320 @@ header{
     color: #333;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 10px; /* Space between the icon and text */
+    margin-left: 10px; 
+}
+/* banner left end */
+
+/* banner middle start */
+.banner-middle svg{
+    padding:0px 0px ;
+    margin-top: 240px;
+    margin-left: -120px;
+}
+
+/* banner right start */
+
+.menu-grid {
+
+    display: grid;
+    grid-column: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 50px;
+    padding: 50px;
+    
+}
+
+.menu-card {
+    align-items: center;
+    width: 180px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+}
+
+.food-image {
+    width: 190px;
+    height: 195px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    margin-top: -70px;
+    
+}
+
+.food-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    margin-top: -45px;
+}
+
+.food-description {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.food-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.food-price span{
+    color: red;
+    
+}
+
+/* banner right end */
+/* banner end */
+
+/* info start */
+.info-section {
+    margin-top: 70px;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    align-items: center;
+    width: 97%;
+
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.info-icon{
+    background-color: #F48E28;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+.info-icon svg{
+    margin-top: 10px;
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #000000;
+}
+
+.info-subtitle {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 10px;
+
+}
+
+.divider {
+    height: 140px;
+    width: 1px;
+    background-color: #B6B6B6;
+    margin: 0 20px;
+}
+/* info end */
+
+/* most popular start */
+
+/* most popular end */
+
+/* services start */
+
+.services{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.service-heading{
+    align-items: center;
+    text-align: center;
+    gap: -10px;
+}
+
+.service-heading p{
+    color:#F48E28;
+}
+
+.service-heading h1{
+    margin-top: -10px;
+}
+
+.reasons{
+    display: flex;
+    justify-content: space-between;
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #B6B6B6;
+    border-radius: 10%;
+    height: 380px;
+    width: 400px;
+}
+
+.reason:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    border: none;
+}
+.resson-img{
+    background-color: #F5DDC4;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin-top: 70px;
+}
+
+.resson-img svg{
+    margin-top: 15px;
+}
+
+.reason h2{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.reason p{
+    font-size: 12px;
+}
+
+/* services end */
+
+/* testimonial start */
+
+.testimonial{
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.test-head-desc p{
+    color: #F48E28;
+}
+
+.test-head-desc h1{
+    margin-top: -15px;
+}
+
+.test-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+.client-test-img{
+    display: flex;
+}
+.point-icon{
+    background-color: #F48E28;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-top: 160px;
+    margin-left: -17px;
+}
+
+.point-icon svg{
+    margin-top: 8px;
+}
+
+.clint-testi{
+    width: 600px;
+    height: 370px;
+    border: 1px;
+    box-shadow:  0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: -17px;
+}
+
+.client-img-name{
+    display: flex; 
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+.clint-name h3{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.clint-name p{
+    font-size: 15px;
+    margin-top: -10px;
+}
+#client-testimon{
+    font-weight: 550;
+}
+/* testimonial end */
+
+/* Subscriber start */
+.subscriber{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    border-radius: 35px;
+    height: 325px;
+    margin-top: 90px;
+}
+
+.sub-img{
+    margin-top:-10px;
+}
+.sub-head-desc-form{
+    color: white;
+    margin-top: 30px;
+}
+
+.sub-form-button{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sub-form-button form input{
+    margin-left: 20px;
+    border-style: none;
+    height: 50px;
+    color: #B6B6B6;
+    outline: none;
+    width: 270px;
+}
+
+.sub-form-button form button{
+    background-color: #F48E28;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    color: white;
+    width: 120px;
+    margin-left: 45px;
 }
 @media only screen and (min-width:200px) and (max-width: 576px) {
     .nav{
