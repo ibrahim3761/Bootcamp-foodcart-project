@@ -10,13 +10,13 @@ document.querySelector(".see-more-products").addEventListener("click", function(
                 name: "Gyro Sandwich",
                 price: "22.00",
                 rating: "4.7",
-                image: "/images/Mask group.png"
+                image: "./images/Mask group.png"
             },
             {
                 name: "Enchilade",
                 price: "17.00",
                 rating: "4.9",
-                image: "/images/Mask group (1).png"
+                image: "./images/Mask group (1).png"
             },
             {
                 name: "Green Beans",
@@ -28,19 +28,19 @@ document.querySelector(".see-more-products").addEventListener("click", function(
                 name: "Pizza",
                 price: "18.00",
                 rating: "4.8",
-                image: "/images/Mask group (3).png"
+                image: "./images/Mask group (3).png"
             },
             {
                 name: "Chicken Pot Pie",
                 price: "15.50",
                 rating: "4.6",
-                image: "/images/Mask group (4).png"
+                image: "./images/Mask group (4).png"
             },
             {
                 name: "Green Salad",
                 price: "14.00",
                 rating: "4.7",
-                image: "/images/Mask group (5).png"
+                image: "./images/Mask group (5).png"
             }
         ];
 
