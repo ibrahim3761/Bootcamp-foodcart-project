@@ -198,8 +198,8 @@ header{
 }
 
 .play-icon img {
-    width: 100px; /
-    height: auto;
+    width: 100px; 
+    height:auto;
 }
 
 .order-process-text {
@@ -691,6 +691,7 @@ align-items: center;
 
 }
 .newsletter input{
+    outline: none;
     border: none;
     background: transparent;
     border: 1px  #ddd;
@@ -718,9 +719,4 @@ align-items: center;
 }
 
 /* footer end */
-@media only screen and (min-width:200px) and (max-width: 576px) {
-    .nav{
-        display: flex;
-        flex-direction: column;
-    }
-}
+
